@@ -1,0 +1,16 @@
+{
+  "name": "serve-this",
+  "version": "0.1.0",
+  "description": "Serve the current working directory as a web server, optionally advertising over mDNS",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mdns": "^2.3.3",
+    "serve-index": "^1.8.0",
+    "yargs": "^8.0.1"
+  },
+  "bin": {
+    "serve-this": "src/index.js"
+  }
+}
